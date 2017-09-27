@@ -1,0 +1,108 @@
+
+
+
+h1 {
+  font-family: 'Pacifico', cursive;;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+p, h5 {
+  font-family: 'Quattrocento', serif;
+  font-size: 1.3em;
+}
+
+.about {
+  text-align: center;
+  padding: 1.5% 5%;
+}
+
+
+.btn{
+  box-shadow: none;
+}
+
+.thumbnail {
+  margin: 0 0.5%;
+  margin-top: 1%;
+  border-radius: 12px;
+  padding: 0.8%;
+  background-color: white;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  margin: 28.5% 0 0 0;
+}
+
+
+/****************** MEDIA QUERY  SET 1 ******************/
+
+@media screen and (max-width:424px) and (min-width:375px) {
+  body {
+
+    margin-bottom: 35%;
+  }
+
+
+}
+
+/****************** MEDIA QUERY  SET 2 ******************/
+@media screen and (max-width:767px) and (min-width:425px) {
+  body {
+
+    margin-bottom: 30%;
+  }
+}
+
+
+
+/****************** MEDIA QUERY  SET 3 ******************/
+
+@media screen and (max-width:955px) and (min-width:768px) {
+  body {
+    margin-bottom: 23.5%;
+  }
+
+  .thumbnail {
+
+    margin: 1% 10% 0 10% ;
+  }
+
+}
+
+
+/****************** MEDIA QUERY  SET 4 ******************/
+@media screen and (min-width:1001px) {
+
+
+
+h1 {
+  font-family: 'Pacifico', cursive;;
+  font-weight: bold;
+  font-size: 4em;
+}
+p, h5 {
+  font-family: 'Quattrocento', serif;
+  font-size: 1.3em;
+}
+
+.about {
+  text-align: left;
+  margin: 0 25%;
+  padding: 1% 0 1.5% 0;
+}
+
+
+.thumbnail {
+  margin: 0 25%;
+  margin-top: 1%;
+  border-radius: 12px;
+  padding: 0.8%;
+  background-color: white;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  margin: 26.5% 0 0 0;
+}
+}
